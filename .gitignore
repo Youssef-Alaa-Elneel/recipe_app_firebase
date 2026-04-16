@@ -1,0 +1,96 @@
+# ========================================
+# 1. Android Security & Keystores (CRITICAL)
+# ========================================
+*.jks
+*.keystore
+key.properties
+android/key.properties
+android/app/*.jks
+android/app/*.keystore
+
+# ========================================
+# 2. Flutter/Dart/Pub related
+# ========================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+build/
+**/ios/Flutter/.last_build_id
+
+# ========================================
+# 3. IDEs and Editors
+# ========================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ========================================
+# 4. OS Specific Files
+# ========================================
+.DS_Store
+Thumbs.db
+
+# ========================================
+# 5. Miscellaneous
+# ========================================
+*.class
+*.log
+*.swp
+.history/
+app.*.symbols
+app.*.map.json
+
+# ========================================
+# 6. Secrets & Environment Variables
+# ========================================
+.env
+*.env
+
+# ========================================
+# 7. Android Specific Additions
+# ========================================
+local.properties
+**/android/local.properties
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/**/gradle-wrapper.jar
+**/android/**/GeneratedPluginRegistrant.java
+
+# ========================================
+# 8. iOS Specific Additions (ضروري لو حد من التيم بيعمل Run على ماك)
+# ========================================
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Runner/GeneratedPluginRegistrant.h
+**/ios/Runner/GeneratedPluginRegistrant.m
+
+# استثناء مهم للـ iOS
+!**/ios/**/*.xcworkspace/
+
+# ========================================
+# 9. Flutter Old Versions & Database caching
+# ========================================
+.packages
+*.sqlite
