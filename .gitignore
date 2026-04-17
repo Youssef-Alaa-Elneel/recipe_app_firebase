@@ -94,3 +94,5 @@ local.properties
 # ========================================
 .packages
 *.sqlite
+
+lib/firebase_options.dart
